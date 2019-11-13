@@ -9,7 +9,7 @@ const Home: NextPage = () => (
         <Head>
             <title>Alexander May</title>
             <link rel="manifest" href="/static/manifest.json" />
-            <meta name="theme-color" content="#72B340" />
+            <meta name="theme-color" content="#edf2f7" />
             <meta name="description" content="Portfolio Page" />
         </Head>
         <Landing />
