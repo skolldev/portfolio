@@ -2,6 +2,7 @@ import "../styles/index.css";
 
 import { NextPage } from "next";
 import Head from "next/head";
+import Landing from "../components/Landing";
 
 const Home: NextPage = () => (
     <div>
@@ -11,7 +12,7 @@ const Home: NextPage = () => (
             <meta name="theme-color" content="#72B340" />
             <meta name="description" content="Portfolio Page" />
         </Head>
-        <h1 className="text-purple-700 text-4xl">Welcome!</h1>
+        <Landing />
     </div>
 );
 
