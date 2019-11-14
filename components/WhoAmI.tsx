@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import TypeWriter from "./Typewriter";
 interface IProps {
     className?: string;
 }
@@ -30,8 +31,7 @@ export default class WhoAmI extends Component<IProps, IState> {
     public render() {
         return (
             <h1 className={`text-xl ${this.props.className}`}>
-                I'm a{" "}
-                <span className="text-purple-700 font-bold">{this.words[this.state.index]}</span>
+                I'm a <TypeWriter items={this.words} />
             </h1>
         );
     }
