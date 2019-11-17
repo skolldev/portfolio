@@ -9,6 +9,8 @@ const Home: NextPage = () => (
         <Head>
             <title>Alexander May</title>
             <meta name="description" content="Portfolio Page" />
+            // @ts-ignore
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
         </Head>
         <Landing />
     </div>

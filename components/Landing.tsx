@@ -26,7 +26,7 @@ export default function Landing() {
             <div className=" text-black flex flex-col lg:flex-row items-start w-full justify-center lg:px-12">
                 <img
                     src="./portrait.png"
-                    className="rounded-full shadow-md mb-8 lg:mb-0 h-64 w-64 xl:h-80 xl:w-80 xl:mt-2 self-center lg:order-1 object-cover"
+                    className="rounded-full shadow-md mb-8 lg:mb-0 h-64 w-64 xl:h-80 xl:w-80 self-center lg:order-1 object-cover"
                     alt="Picture of me"
                 />
                 <div className="flex flex-col pt-2 xl:pt-0 lg:mr-8 xl:mr-12">
