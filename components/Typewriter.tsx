@@ -21,7 +21,7 @@ export default class TypeWriter extends React.Component<IProps, IState> {
     /**
      * Determines how much time passes after erasing the last word, before beginning to type a new word
      */
-    private startPauseMs = 1000;
+    private startPauseMs = 500;
 
     /**
      * Determines how much time passes after typing a word, before starting to erase it
