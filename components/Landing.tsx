@@ -9,9 +9,10 @@ interface ILinkProps {
     link: string;
     icon: IconDefinition;
     text: string;
+    linkTarget?: "blank" | undefined;
 }
 const IconLink = (props: ILinkProps) => (
-    <a className="hover:text-purple-600 mr-6" href={props.link} target="blank">
+    <a className="hover:text-purple-600 mr-6" href={props.link} target={props.linkTarget}>
         <span className="inline-block text-2xl xl:text-3xl text-center mr-2">
             <FontAwesomeIcon icon={props.icon} />
         </span>
@@ -48,9 +49,18 @@ export default function Landing() {
                         I'd love to get to know you!
                     </p>
                     <div id="links" className="flex flex-row text-xl xl:text-2xl">
-                        <IconLink text="CV" link="https://github.com/xDecus" icon={faFileAlt} />
-                        <IconLink text="Github" link="https://github.com/xDecus" icon={faGithub} />
-                        <IconLink text="Email" link="mailto:alex.may.ush@web.de" icon={faAt} />
+                        <IconLink
+                            text="CV"
+                            link="https://alexandermay.dev/CV_Alexander_May.pdf"
+                            icon={faFileAlt}
+                        />
+                        <IconLink
+                            text="Github"
+                            link="https://github.com/skolldev"
+                            icon={faGithub}
+                            linkTarget="blank"
+                        />
+                        <IconLink text="Email" link="mailto:hello@alexandermay.dev" icon={faAt} />
                     </div>
                 </div>
             </div>
