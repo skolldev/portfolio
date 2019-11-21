@@ -22,8 +22,7 @@ const IconLink = (props: ILinkProps) => (
 
 export default function Landing() {
     return (
-        <div className="p-8 lg:p-0 text-black flex flex-col justify-center items-start block lg:h-screen">
-            <h1 className="text-3xl font-bold mb-4 self-center lg:hidden">Hi there!</h1>
+        <div className="p-8 lg:p-0 text-black flex flex-col justify-center items-start block h-screen">
             <div className=" text-black flex flex-col lg:flex-row items-start w-full justify-center">
                 <img
                     src="./portrait.png"

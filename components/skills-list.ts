@@ -66,7 +66,7 @@ export const skills: ISkill[] = [
     },
     {
         name: "C#",
-        iconUrl: "/skills/sharp.svg"
+        iconUrl: "/skills/csharp.svg"
     },
     {
         name: "Jenkins",
@@ -83,9 +83,5 @@ export const skills: ISkill[] = [
     {
         name: "IIS",
         iconUrl: "/skills/microsoft.svg"
-    },
-    {
-        name: "Advanced Installer",
-        iconUrl: "/skills/ai.svg"
     }
 ];
