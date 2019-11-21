@@ -40,7 +40,7 @@ export default function Landing() {
                     <h1 className={`text-xl xl:text-2xl`}>
                         I'm a{" "}
                         <TypeWriter
-                            items={["frontend dev", "powerlifter", "backend dev", "coach", "nerd"]}
+                            items={["frontend dev", "powerlifter", "backend dev", "coach"]}
                         />
                     </h1>
                     <p className="text-lg xl:text-2xl max-w-lg text-left mb-2 leading-relaxed">
