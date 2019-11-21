@@ -4,7 +4,7 @@ import { skills } from "./skills-list";
 export default class Skills extends Component {
     public render() {
         return (
-            <div className="p-8 xl:p-0 sm:h-screen text-black flex items-center justify-center">
+            <div className="px-8 xl:p-0 sm:h-screen text-black flex items-center justify-center">
                 <div className="bg-white max-w-6xl shadow-lg rounded-lg ">
                     <h1 className="text-center text-3xl lg:text-4xl  font-bold pt-4">
                         Skills & Technologies
