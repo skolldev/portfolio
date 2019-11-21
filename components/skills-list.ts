@@ -61,16 +61,20 @@ export const skills: ISkill[] = [
         iconUrl: "/skills/github.svg"
     },
     {
+        name: "Jenkins",
+        iconUrl: "/skills/jerkins.svg"
+    },
+    {
+        name: "Jira",
+        iconUrl: "/skills/jira.svg"
+    },
+    {
         name: ".NET/EF Core",
         iconUrl: "/skills/net-core.svg"
     },
     {
         name: "C#",
         iconUrl: "/skills/csharp.svg"
-    },
-    {
-        name: "Jenkins",
-        iconUrl: "/skills/jerkins.svg"
     },
     {
         name: "MSSQL",
