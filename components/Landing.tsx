@@ -1,6 +1,6 @@
-import { faGit, faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, IconDefinition } from "@fortawesome/free-brands-svg-icons";
 import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
-import { faAt, faFile } from "@fortawesome/free-solid-svg-icons";
+import { faAt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import TypeWriter from "./Typewriter";
