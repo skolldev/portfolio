@@ -15,6 +15,7 @@ const Home: NextPage = () => (
             />
             <meta name="description" content="Portfolio Page" />
             // @ts-ignore
+            <link rel="preconnect" href="https://fonts.gstatic.com/" crossOrigin="anonymous" />
         </Head>
         <Landing />
         <Skills />
