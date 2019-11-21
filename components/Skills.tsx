@@ -14,18 +14,35 @@ export default class Skills extends Component {
                             <img
                                 src={skill.iconUrl}
                                 alt={skill.name}
-                                className="h-12 w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 mb-2"
+                                className={`h-12 w-12 lg:h-16 lg:w-16 xl:h-20 xl:w-20 mb-2 ${skill.name}`}
                             />
-                            <span className="text-lg">{skill.name}</span>
+                            <span className="text-lg skill-name">{skill.name}</span>
                         </div>
                     ))}
                 </div>
                 <style jsx>{`
                     img {
                         filter: grayscale(100%);
+                        transition: transform 300ms;
                     }
                     img:hover {
                         filter: none;
+                        transform: scale(1.2);
+                    }
+                    .Jenkins {
+                        margin-bottom: 0;
+                        margin-top: 0.5rem;
+                        width: auto;
+                    }
+                    .SVN {
+                        margin-bottom: 0;
+                        margin-top: 0.5rem;
+                    }
+                    .skill-name {
+                        transition: transform 300ms;
+                    }
+                    img:hover + .skill-name {
+                        transform: translateY(0.3rem);
                     }
                 `}</style>
             </div>
