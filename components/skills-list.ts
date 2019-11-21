@@ -1,4 +1,4 @@
-interface ISkill {
+export interface ISkill {
     name: string;
     iconUrl?: string;
 }
